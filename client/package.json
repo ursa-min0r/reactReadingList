@@ -2,6 +2,10 @@
   "name": "mern",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.12.0",
+    "node": "v12.5.0"
+  },
   "proxy": "http://localhost:3005/",
   "dependencies": {
     "axios": "^0.18.1",
@@ -26,4 +30,3 @@
     "not ie <= 11",
     "not op_mini all"
   ]
-}
